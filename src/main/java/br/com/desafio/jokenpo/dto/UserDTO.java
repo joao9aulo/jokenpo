@@ -5,6 +5,9 @@ public class UserDTO {
 	
 	private String name;
 
+	UserDTO(){
+		super();
+	}
 	public UserDTO(int id, String name) {
 		super();
 		this.id = id;
