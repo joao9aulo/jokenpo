@@ -11,9 +11,16 @@ import br.com.desafio.jokenpo.service.UserService;
 public class UserServiceImpl implements UserService{
 
 	@Override
-	public List<UserDTO> getUser(int id) {
+	public UserDTO getUser(int id) {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public List<UserDTO> getUsers() {
+		
+		return null;
+	}
+
 
 }
